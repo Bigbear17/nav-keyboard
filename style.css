@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+main{
+    text-align: center;
+
+}
+
+.masker{
+    display: inline-block;
+}
+
+.masker kbd {
+    border: 1px solid red;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 30px;
+    height: 40px;
+    position: relative;
+}
+
+kbd button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+
+kbd:hover  button{
+    display: inline-block;
+}
